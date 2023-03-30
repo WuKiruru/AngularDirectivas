@@ -1,0 +1,28 @@
+<div class="col-12">
+    <div class="row rata" [style.background-color]="unaFuncion()">
+        <div class="col-8 d-flex align-items-center prueba1">
+            <div class="col-12">
+                <app-inside></app-inside>
+            </div>
+        </div>
+        <div class="col-4 d-flex justify-content-center prueba2">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-primary boton" (click)="changeColorR()">
+                        {{color1}}
+                    </button>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-primary boton" (click)="changeColorA()">
+                        {{color2}}
+                    </button>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-primary boton" (click)="changeColorV()">
+                        {{color3}}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
